@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAQUERIA 🌮TACOCAT😼</title>
+</head>
+<body>
+    <header>
+        <img src="img/tacocat.png" alt="logo" width="150px">
+        <nav>
+           <ul>
+            <!-- Aun no tengo los enlaces -->
+            <a href="#"> <li>Inicio</li></a>
+            <a href="#"><li>Acerca de</li></a>
+            <a href="#"><li>Menú</li></a>
+            <a href="#"><li>Contacto</li></a>
+           </ul> 
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>TAQUERÍA 🌮TACOCAT😼</h1>
+            <h2>Acerca de nosotros</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, vel similique in natus veniam accusamus voluptatibus, aperiam necessitatibus laboriosam reprehenderit voluptate esse? Odio, adipisci quo corporis numquam quos expedita voluptatibus! Culpa nemo, qui nulla veniam reiciendis itaque doloremque hic consequatur voluptates suscipit rem beatae et quo temporibus. Ullam sed aliquam libero sit culpa commodi adipisci itaque, laudantium, assumenda dolore sunt molestias quae, architecto quis modi nihil error mollitia vero quod placeat quo blanditiis. Voluptate voluptatem incidunt laborum aliquam animi ipsa, temporibus facere officiis error ipsum in minus iure ad quasi dolorum consequatur eum fugit debitis deserunt dolores hic vero. Maiores.</p>
+            <iframe width="350" height="200" src="https://www.youtube.com/embed/kQAcWVSH2gg?si=3cWTbdh3m3IPjrAr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><hr>
+        </section>
+        <section>
+            <h2>Menú</h2>
+            <h3>Tacos</h3>
+            <!-- lISTA ORDENADA -->
+            <ol>
+                <li>Suadero..........$15.00</li>
+                <li>Tripa............$15.00</li>
+                <li>Bisteck..........$15.00
+                    <!-- Lista desordenada -->
+                    <ul>
+                        <li>Res...........$15.00</li>
+                        <li>Cerdo...........$15.00</li>
+                    </ul>
+                </li>
+                <li>Longaniza........$15.00</li>
+                <li>Lengua...........$20.00</li>
+                <li>Cabeza...........$20.00</li>
+            </ol>
+            <h3>Especiales</h3>
+            <!-- Lista descriptiva -->
+            <dl>
+                <dt>Campechanos</dt>
+                <dd>Cualquier Combinación.................$20</dd>
+                <dt>Cubanos</dt>
+                <dd>De todo un poco.......................$25   </dd>
+            </dl>
+            <h3>Ordena</h3>
+            <form action="" method="" name="menu">
+                Nombre: <input type="text" name="nombre" 
+                placeholder="Ejemplo Juan" minlength="3" maxlength="10" required> 
+                Apellido: <input type="text" name="apellido"
+                placeholder="Ejemplo Pérez" minlenght="3" maxlength="10"> <br>
+                Envío o recolección: <br>
+                <!-- Al colocar Radio si se quiere que se pueda seleccionar solo un radio el name debe ser exactamente el mismo, si se quiere que el radio permita seleccionar ambos pueden ser nombres diferentes -->
+                <input type="radio" name="Envío" 
+                value="si"> Envío
+                <input type="radio" name="Envío"
+                value="no"> Local <br>
+                <input type="text" name="dirección"
+                placeholder="calle, numero, colonia, alcaldia, cp" size="80"><br>
+                Teléfono: <input type="tel" minlength="10" maxlength="10" placeholder="10 dígitos" value="55" name="telefono"> <br>
+                Correo: <input type="email" name="correo">
+                Depósito (Anexa el comprobante)
+                <input type="file" name="comprobante"><br>
+
+                orden 1 <br>
+                <select name="orden1">
+                    <option value="#">Selecciona</option>
+                    <option value="Suadero">Suadero</option>
+                    <option value="Tripa">Bisteck</option>
+                    <option value="Longaniza">Longaniza</option>
+                    <option value="Lengua">Lengua</option>
+                    <option value="Cabeza">Cabeza</option>
+                    <option value="Campechanos">Selecciona</option>
+                    <option value="Cubanos">Cubanos</option>
+                </select>
+                Número<input type="number" min="0" max="50"   >
+                <input type="checkbox" name="limones" value="si">Limones 
+                <input type="checkbox" name="Verdura" value="si">Verdura
+                <input type="checkbox" name="salsa_verde" value="si">Salsa verde
+                <input type="checkbox" name="salsa_roja" value="si">Salsa roja <br> 
+                orden 2 <br>
+                <select name="orden2">
+                    <option value="#">Selecciona</option>
+                    <option value="Suadero">Suadero</option>
+                    <option value="Tripa">Bisteck</option>
+                    <option value="Longaniza">Longaniza</option>
+                    <option value="Lengua">Lengua</option>
+                    <option value="Cabeza">Cabeza</option>
+                    <option value="Campechanos">Selecciona</option>
+                    <option value="Cubanos">Cubanos</option>
+                </select>
+                Número<input type="number" min="0" max="50"   >
+                <input type="checkbox" name="limones" value="si">Limones 
+                <input type="checkbox" name="Verdura" value="si">Verdura
+                <input type="checkbox" name="salsa_verde" value="si">Salsa verde
+                <input type="checkbox" name="salsa_roja" value="si">Salsa roja <br>  
+                orden 3 <br>
+                <select name="orden3">
+                    <option value="#">Selecciona</option>
+                    <option value="Suadero">Suadero</option>
+                    <option value="Tripa">Bisteck</option>
+                    <option value="Longaniza">Longaniza</option>
+                    <option value="Lengua">Lengua</option>
+                    <option value="Cabeza">Cabeza</option>
+                    <option value="Campechanos">Selecciona</option>
+                    <option value="Cubanos">Cubanos</option>
+                </select>
+                Número<input type="number" min="0" max="50"   >
+                <input type="checkbox" name="limones" value="si">Limones 
+                <input type="checkbox" name="Verdura" value="si">Verdura
+                <input type="checkbox" name="salsa_verde" value="si">Salsa verde
+                <input type="checkbox" name="salsa_roja" value="si">Salsa roja <br> 
+                orden 4 <br>
+                <select name="orden2">
+                    <option value="#">Selecciona</option>
+                    <option value="Suadero">Suadero</option>
+                    <option value="Tripa">Bisteck</option>
+                    <option value="Longaniza">Longaniza</option>
+                    <option value="Lengua">Lengua</option>
+                    <option value="Cabeza">Cabeza</option>
+                    <option value="Campechanos">Selecciona</option>
+                    <option value="Cubanos">Cubanos</option>
+                </select>
+                Número<input type="number" min="0" max="50"   >
+                <input type="checkbox" name="limones" value="si">Limones 
+                <input type="checkbox" name="Verdura" value="si">Verdura
+                <input type="checkbox" name="salsa_verde" value="si">Salsa verde
+                <input type="checkbox" name="salsa_roja" value="si">Salsa roja <br>
+
+                <input type="submit" value="Ordena"👌>
+                <input type="submit" value="Borrar😐">
+
+
+            </form>
+            
+
+        </section>
+        <article>
+
+        </article>
+        <aside>
+
+        </aside>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
